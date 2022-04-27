@@ -48,7 +48,7 @@ export default function AddForm() {
       <Container maxWidth="xl" sx={{ display: "flex", justifyContent: "space-evenly", mt: 5 }}>
         <Card sx={{ p: 2 }}>
           <Stack spacing={2}>
-            <Typography variant="h4">Add Movies</Typography>
+            <Typography variant="h4">Add Phone</Typography>
             <TextField value={newPhone.name} onChange={newPhoneHandler} name="name" label="Name" variant="filled" sx={{ width: 500 }} />
             <TextField value={newPhone.price} onChange={newPhoneHandler} name="price" label="Price" variant="filled" sx={{ width: 500 }} />
             <TextField value={newPhone.brand} onChange={newPhoneHandler} name="brand" label="Brand" variant="filled" sx={{ width: 500 }} />
