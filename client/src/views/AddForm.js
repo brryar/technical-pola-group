@@ -25,7 +25,7 @@ export default function AddForm() {
 
   const navigate = useNavigate();
   const addPhoneHandler = () => {
-    dispatch(addMovies(newMovies))
+    dispatch(addPhone(newPhone))
       .then((response) => {
         if (!response.ok) throw new Error(response.statusText);
         return response.json();
