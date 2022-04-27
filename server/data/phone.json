@@ -1,0 +1,20 @@
+[
+  {
+    "name": "S15",
+    "price": 10000000,
+    "brand": "Samsung",
+    "released": "2021"
+  },
+  {
+    "name": "XR",
+    "price": 15000000,
+    "brand": "Apple",
+    "released": "2020"
+  },
+  {
+    "name": "Pocophone X5",
+    "price": 8000000,
+    "brand": "Xiaomi",
+    "released": "2022"
+  }
+]
