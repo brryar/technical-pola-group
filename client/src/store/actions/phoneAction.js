@@ -1,7 +1,7 @@
 import { FETCH_PHONES } from "./actionType";
 const baseURL = "http://localhost:3001/";
 
-export const fetchMovies = () => {
+export const fetchPhones = () => {
   return (dispatch, getState) => {
     fetch(`${baseURL}/phones`, {
       headers: {

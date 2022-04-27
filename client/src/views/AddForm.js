@@ -3,7 +3,7 @@ import { Container, TextField, Stack, Typography, Card, Button } from "@mui/mate
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { addMovies } from "../store/actions/movieAction";
+import { fetchPhones, addPhone } from "../store/actions/phoneAction";
 
 export default function AddForm() {
   const [newPhone, setNewPhone] = useState({
